@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blog Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="landing.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar_link">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Project</a></li>
+                <li><a href="index.html">About</a></li>
+                <li><a href="index.html">Contact</a></li>
+            </ul>
+
+
+        </nav>
+    </header>
+       <div class="mainImage shiftCenter">
+           <img src="1.jpg" alt="Donark Patel">
+       </div>
+        <div Class="title shiftCenter">
+            <H1>Donark Patel</H1>
+        </div>
+        <div class="blog shiftCenter">
+            <p>I am a student from New Jersey Institute of Technology which ranks in the top 100 colleges in the United States at #97. I intend to complete a Bachelor of Science in Engineering Technology for Computer Technology. I have good communication skills and a love for coding. An important aspect that sets me aside from others, is my attention to detail when I create something. I believe if you're going to get something done, you might as well get it done right. I don't like to just complete the project, I like to complete it and try to incorporate as many features as possible to create a nice and convenient website that the others will ask how I did a certain feature. Another important thing that sets me aside from other students is that I will not stop until I get what I want done right and that I will never settle in my learnings.</p>
+        </div>
+        <div class="shiftCenter comments">
+            <h2>Comments: </h2>
+            <form>
+                <textarea rows="4" cols="50" placeholder="Post a comment..."></textarea><br>
+                <input type="button" value="Post" class="post">
+            </form>
+        </div>
+        <div class="shiftCenter subscribe" id="submitForm">
+            <h2>Subscribe: </h2>
+            <form>
+                <input type="text" placeholder="First name" id="firstName">
+                <input type="text" placeholder="Last name" id="lastName"><br>
+                <input type="text" placeholder="Email" id="email"><br>
+                <input type="submit" value="Subscribe" class="inputButton" onclick="validate()">
+                <input type="button" value="Cancel" class="inputButton" onclick="cancel()"><br>
+            </form>
+        </div>
+</body>
+</html>
